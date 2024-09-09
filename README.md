@@ -23,7 +23,7 @@ Developers can backup the database and push the .bak file to the repository or u
 -   **Configure the Connection String** (Before running the project, make sure the connection string in the "appsettings.json" file is updated with the correct "User ID" and "Password" for your SQL Server)
 -   **Tools -> NuGet Package Manager -> Package Manager Console** (This indicates using NuGet, a package manager for .NET projects, to access the Package Manager Console)
 -   **Note:** Set Default project at Package Manager Console is DAL
--   **Run script:** "Add-Migration InitialCreate"; "Update-Database" (This seems to be executing two database migration scripts using Entity Framework or a similar tool)
+-   **Run script:** "Add-Migration InitialCreate"; "Update-Database" 
     
 ## How to run project?
 - Running the Application (using Ctrl + F5)
